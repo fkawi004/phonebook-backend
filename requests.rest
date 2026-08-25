@@ -1,0 +1,51 @@
+GET http://localhost:3001/api/persons
+
+###
+
+GET http://localhost:3001/info
+
+###
+
+GET http://localhost:3001/api/persons/1
+
+###
+
+DELETE http://localhost:3001/api/persons/2
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "John Smith",
+  "number": "123-456789"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Arto Hellas",
+  "number": "999-999999"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Missing Number"
+}
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "John Smith",
+  "number": "123-456789"
+}
+
